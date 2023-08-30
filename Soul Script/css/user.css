@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    background: image-set('../img/background.jpg');
+}
+
+.nav {
+    padding: 1.5rem 0 1rem 2rem;
+    display: flex;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+    background: transparent;
+    /* margin-right: 32rem; */
+}
+
+.logo p {
+    padding: 0 0.2rem;
+    font-weight: bold;
+    background: transparent;
+    font-size: 1.3rem;
+}
+
+.Soul {
+    color: #FE4233;
+    background: transparent;
+}
+
+.nav_feature {
+    padding-left: 63rem;
+}
+
+.nav_feature ul {
+    display: flex;
+    text-align: right;
+}
+
+.nav_feature ul li {
+    list-style: none;
+    background: transparent;
+    padding: 0.3rem 1rem;
+}
+
+.nav_feature ul a {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    font-weight: 400;
+}
+
+.nav_feature ul button {
+    background: #FE4233;
+    border: none;
+    padding: 0.4rem 0.5rem;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+
+
+.user_profile {
+    display: flex;
+
+    justify-content: center;
+    padding: 8rem 0 1rem 0;
+}
+.user_profile img{
+    border-radius: 70%;
+    border: 2px white solid;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 0rem;
+}
+.user_profile_text {
+    padding: 2.4rem 2rem;
+
+    color: red;
+}
+
+.main_feature {
+    display: flex;
+    justify-content: center;
+    /* margin: 0; */
+}
+.main_feature_featured_post {
+    padding: 4rem 0;
+    width: 50%;
+    color: white;
+    /* text-align: right; */
+    /* position: absolute; */
+}
+.main_feature_featured_post h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+.main_feature_featured_post h2 {
+    /* color: #FE4233; */
+    text-align: center;
+    opacity: 80%;
+    font-weight: 400;
+    padding: 0rem 0 2rem 0;
+    font-size: 2.2rem;
+}
+.Span_red {
+    display: block;
+    width: 45rem;
+    /* margin-bottom: 2rem; */
+    /* position: relative; */
+    border: 3px red solid;
+    /* height: 0rem; */
+    /* color: #FE4233; */
+}
+.main_feature_featured_post p {
+    /* color: aliceblue; */
+    text-align: left;
+    font-weight: 400;
+    /* padding: 0.3rem 0; */
+    line-height: 21px;
+    opacity: 70%;
+    font-size: 1.1rem;
+}
+.Span {
+    display: block;
+    margin: 1rem 0 0 0;
+    border: 3px #ffffff40 solid;
+    color: grey;
+    width: 45rem;
+}
+.user_profile_text button {
+    background: #FE4233;
+    border: none;
+    margin: 1rem 0 0 0;
+    padding: 0.4rem 0.5rem;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.user_profile_text button a {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    font-weight: 400;
+}

@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    background: image-set('../img/background.jpg');
+    color: white;
+}
+
+.nav {
+    padding: 1.5rem 0 1rem 2rem;
+    display: flex;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+    background: transparent;
+    /* margin-right: 32rem; */
+}
+
+.logo p {
+    padding: 0 0.2rem;
+    font-weight: bold;
+    background: transparent;
+    font-size: 1.3rem;
+}
+
+.Soul {
+    color: #FE4233;
+    background: transparent;
+}
+
+.nav_feature {
+    padding-left: 63rem;
+}
+
+.nav_feature ul {
+    display: flex;
+    text-align: right;
+}
+
+.nav_feature ul li {
+    list-style: none;
+    background: transparent;
+    padding: 0rem 1rem;
+}
+
+.nav_feature ul a {
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    font-weight: 400;
+}
+
+.nav_feature ul button {
+    background: #FE4233;
+    border: none;
+    margin: 0;
+    padding: 0.4rem 0.5rem;
+    font-size: 17px;
+    border-radius: 10px;
+}
+#btn_login{
+    margin:0;padding:0 0.5rem;
+}
+
+
+.main {
+    padding: 4rem 2rem 0rem 2rem;
+}
+
+.main_head img{
+    
+    width: 50rem;
+    padding-top: 5rem;
+}
+.main_head {
+    padding: 1rem 25%;
+}
+
+.main_head h1 {
+    font-weight: 700;
+    /* font-family: 'Baloo Bhai 2'; */
+    color: #FE4233;
+    padding: 0rem 5rem;
+    font-weight: 100;
+    font-size: 3.3rem;
+}
+
+.main_head h3 {
+    color: #ffffff8a;
+    font-size: 1rem;
+    /* margin-top: -1rem; */
+    font-weight: normal;
+}
+
+.main_feature {
+    padding: 2rem 8rem 0px 12rem;
+    display: flex;
+}
+
+.main_feature_bigpost {
+    padding: 1rem 0px;
+}
+
+.main_feature_bigpost img {
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+}
+
+.main_feature_bigpost h2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+}
+
+.main_feature_bigpost p {
+    font-size: 0.8rem;
+    margin: 0px 12%;
+    opacity: 65%;
+    font-weight: 300;
+}
+
+
+.main_feature_featured_post {
+    padding: 1rem;
+    text-align: right;
+    /* position: absolute; */
+}
+
+.Span_red {
+    display: block;
+    /* width: 32rem; */
+    margin-bottom: 1rem;
+    /* position: relative; */
+    border: 3px red solid;
+    /* height: 0rem; */
+    /* color: #FE4233; */
+}
+
+.Span {
+    display: block;
+    margin: 0.5rem 0;
+    border: 3px #ffffff40 solid;
+    color: grey;
+    /* width: 32rem; */
+}
+
+.main_feature_featured_post h2 {
+     color: #FE4233; 
+    text-align: left;
+    opacity: 80%;
+    font-weight: 400;
+    padding: 0rem 0 1rem 0;
+    font-size: 2rem;
+}
+
+.main_feature_featured_post p {
+     color: aliceblue; 
+    text-align: left;
+    font-weight: 400;
+    /* padding: 0.3rem 0; */
+    line-height: 21px;
+    opacity: 70%;
+    font-size: 0.8rem;
+    margin: 0 2rem 0 0px;
+}
+
+
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.card_main {
+    padding: 1rem 1rem;
+    margin: 1rem 0.6rem;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+    /* text-align: left; */
+    background: #0B0B0B;
+}
+
+.card_main img {
+    text-align: center;
+    width: 15rem;
+    border-radius: 15px;
+}
+.card_main h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card_main p {
+    opacity: 50%;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.card_main h3 {
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+
+.recent {
+    text-align: left;
+    padding: 0 15rem;
+}
+
+.recent_main {
+    padding: 1rem 2rem;
+    /* background: #0B0B0B; */
+    text-align: left;
+    border-radius: 20px;
+}
+
+.recent_main h1 {
+    text-align: left;
+    font-size: 2rem;
+    padding: 0rem 2rem;
+    font-weight: 400;
+}
+
+.recent_main_boxes {
+    display: flex;
+    padding: 1rem;
+}
+
+.recent_main_box1 {
+    padding: 0 0rem 0 1rem;
+    text-align: left;
+    width: 87%;
+}
+
+.recent_main_box1 img {
+    width: 26rem;
+    height: 11rem;
+    border-radius: 0px;
+}
+
+.recent_main_box1 h3 {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.3rem;
+}
+
+.recent_main_box1 p {
+    text-align: left;
+    opacity: 80%;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+
+.recent_main_box2 {
+    padding: 0rem 1rem;
+    width: 100%;
+}
+
+.recent_main_box2_1 {
+    padding: 0.5rem;
+    display: flex;
+}
+
+.comment {
+    padding: 1rem;
+}
+.comment_form form {
+    padding: 1rem 4rem;
+    margin: 1rem 4rem;
+    background: #0b0b0b;
+    border-radius: 15px;
+}
+.form_txt {
+    background: transparent;
+}
+
+.form_txt h2 {
+    padding: 1rem 0;
+    background: transparent;
+}
+.form_txt input{
+        border: none;
+        color: white;
+        /* padding: 0.5rem 0; */
+        font-size: 1rem;
+        border-bottom: 2px white solid;
+        background: transparent;
+    }
+    .form_txt textarea{
+    background: transparent;
+        background: transparent;
+        border: none;
+        font-size: 1rem;
+        /* padding: 0.5rem 0; */
+        text-align: left;
+        border-bottom: 2px solid white;
+}
+form button {
+    background: #FE4233;
+    color: white;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    font-size: 1rem;
+    text-align: left;
+    border-radius: 10px;
+}
+.comment_form {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+.comment h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+.recent_main_box2_1 img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.recent_main_box2_1_text {
+    padding: 0 0.5rem;
+}
+
+.recent_main_box2_1_text h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.3rem;
+    text-align: left;
+}
+
+.recent_main_box2_1_text p {
+    padding: 0 0.3rem;
+    opacity: 80;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.recent_main_box2_2 {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.recent_main_box2_2 img {
+    width: 8rem;
+}
+
+.recent_main_box2_1_text {
+    padding: 0 0.5rem;
+}
+
+.recent_main_box2_1_text h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.3rem;
+    text-align: left;
+}
+
+.recent_main_box2_1_text p {
+    padding: 0 0.3rem;
+    opacity: 80;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+
+
+
+
+.fotter {
+    margin: 4rem 12rem 0rem 12rem;
+    background: #0B0B0B;
+    border-radius: 10px;
+}
+.fotter_main {
+    display: flex;
+    padding: 1rem;
+}
+.fotter_main_box1 {
+    padding: 0 0rem 0 3rem;
+    width: 100%;
+}
+.fotter_main_box1 h1 {
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.fotter_main_box1 p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 1rem 10rem 1rem 0px;
+    text-align: left;
+    opacity: 80%;
+}
+.fotter_main_box1 h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 70%;
+    text-align: left;
+}
+.fotter_main_box2 {
+    margin: 0 4rem 0 0;
+}
+.fotter_main_box2 h1 {
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 0rem 0 1rem 0;
+    font-weight: 400;
+}
+.fotter_input_box {
+    display: flex;
+    padding: 0.5rem 0;
+}
+.fotter_input_box h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    background: transparent;
+    padding: 0px 1rem 0px 0;
+}
+.fotter_input_box input {
+    border: none;
+    font-size: 0.8rem;
+    text-align: left;
+    background: no-repeat;
+    padding-top: 1px;
+    border-bottom: 2px white solid;
+}
+.fotter_input_box{
+    display: flex;
+}
+form button {
+    background: #FE4233;
+    color: white;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    text-align: left;
+    border-radius: 10px;
+}
+textarea{
+    background: transparent;
+    border: none;
+    text-align: left;
+    border-bottom: 2px solid white;
+}
+footer{
+    padding: 0.3rem;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    .nav_feature{
+        padding-left: 0;
+    }
+    .main_head{
+        padding: 1rem 6rem;
+    }
+    .fotter{
+        margin: 1rem;
+    }
+    .main_head img{
+        width: -webkit-fill-available;
+    }
+}
