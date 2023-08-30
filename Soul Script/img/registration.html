@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+ 
+<link href="./css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+<link href="./css/registration.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./css/registration.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <p class="Soul"><a href="./index.php" style="text-decoration: none; cursor: pointer; background: transparent; color: #FE4233;">Soul</a></p>
+            <p><a href="./index.php" style="text-decoration: none; cursor: pointer; background: transparent; color: white;">Scripter</a></p>
+        </div>
+        <div class="nav_feature">
+            <ul>
+                <li>
+                  <?php if(isset($_GET['keyword'])){
+                    $keyword=$_GET['keyword'];}
+                    else{
+                        $keyword='';
+                    }
+                    ?>  
+                
+                <form style='display:flex' action="search.php" method='GET'>
+                    <li><input name='keyword' type='text' required maxlength='70' style=' background:transparent;border:none;border-bottom:2px white solid;color:white;' type="text" placeholder="Search"></li>
+                    <li><button>Search</button></li>
+                </form></li>
+               
+                <button id='btn_login'><a href="./registration.html">Login/Register</a></button>
+            </ul>
+        </div>
+    </div>
+    <div class="registration">
+    <form class="card" action="registration.php" method="get">
+        <h1>Register/Sign Up</h1>
+            <input name="dname" type="text" placeholder="Name">
+            <input name="dmail" type="text" placeholder="Email">
+            <input name="dpass" type="password" placeholder="Password">
+    
+        <button id="dbtn">Sign Up</button>
+        <p>Have account <a href="./login.php">Login</a> now</p>
+    </form>
+</div>
+    
+
+
+
+
+
+</body>
+
+</html>
+
